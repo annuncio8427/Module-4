@@ -13,7 +13,7 @@ To write a Python program that counts the number of lines in a text file `story.
 
 ## 🧾 Program
 
-
+```python
 count = 0
 
 with open("story.txt", "r") as file:
@@ -22,11 +22,12 @@ with open("story.txt", "r") as file:
             count += 1
 
 print("Number of lines not starting with 'T':", count)
-
+```
 
 ## Output
+```python
 
 Number of lines not starting with 'T': 4
-
+```
 ## Result
 Thus, the Python program successfully counts the number of lines in story.txt that do not start with the letter 'T' using file handling.
